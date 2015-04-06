@@ -23,10 +23,6 @@ public class Broker {
 		return null;
 	}
 
-	private void publish() {
-
-	}
-
 	protected void addVender(Vender vender) {
 
 	}

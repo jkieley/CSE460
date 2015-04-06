@@ -1,7 +1,3 @@
-public class SubscribeEvent extends Event {
-
-	private Consumer consumer;
-
-	private Product product;
+public class SubscribeEvent extends SubscriptionEvent {
 
 }

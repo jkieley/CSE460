@@ -10,4 +10,20 @@ public class Product {
 
 	}
 
+	public void setName(String name) {
+
+	}
+
+	public String getName() {
+		return null;
+	}
+
+	public void setProductType(String productType) {
+
+	}
+
+	public String getProductType() {
+		return null;
+	}
+
 }

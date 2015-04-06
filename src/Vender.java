@@ -19,4 +19,20 @@ public class Vender {
 
 	}
 
+	public void setName(String name) {
+
+	}
+
+	public String getName() {
+		return null;
+	}
+
+	public void setProducts(List<Product> products) {
+
+	}
+
+	public List<Product> getProducts() {
+		return null;
+	}
+
 }

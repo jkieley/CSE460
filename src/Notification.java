@@ -6,8 +6,8 @@ public class Notification {
 
 	private String venderName;
 
-	public void toString() {
-
+	public String toString() {
+		return null;
 	}
 
 	public Notification(Consumer consumer, Vender vender, Product product) {

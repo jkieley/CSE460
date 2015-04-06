@@ -1,13 +1,12 @@
-Order,Subscriber,Unsubscriber,Product Type,Publisher,Product
-1,Safeway,,Hazelnut Spread,,
-2,Walmart,,Vitamin Supplement,,
-3,,,Hazelnut Spread,Ferrero,Nutella
-4,,,Vitamin Supplement,Nature Made,Fish Oil
-5,,,Canned Soda,Coca Cola ,Coke Diet
-6,Fry’s,,Canned Soda,,
-7,Trader Joe’s,,Refreshe,,
-8,,,Chocolate Sweet,Ferrero,Rocher
-9,,,Canned Soda,PepsiCo,Pepsi Light
-10,,,Hazelnut Spread,Hereshey,Hereshey’s spread
-9,,Safeway,Hazelnut Spread,,
-10,,,Hazelnut Spread,JIF,JIF Spread
+Subscribe,Safeway,Hazelnut spread
+Subscribe,Walmart,Vitamin Supplement 
+Publish,Ferrero,Hazelnut Spread,Nutella
+Publish,Nature Made,Vitamin Supplement,Fish Oil
+Publish,Coca Cola,Canned Soda,Coke Diet 
+Subscribe,Fry’s,Canned Soda
+Subscribe,Trader Joe’s,Refreshe
+Publish,Ferrero,Chocolate Sweet,Rocher
+Publish,PepsiCo,Canned Soda,pepsi light
+Publish,Hereshey,Hazelnut Spread,Hershay’s spread
+Unsubscribe,Safeway,Hazelnut spread
+Publish,JIF,Hazelnut Spread,JIF spread

@@ -13,7 +13,7 @@ public class Vender implements Publisher {
 
 	private VenderHolder venderHolder;
 
-	public Vender(String name, int product) {
+	public Vender(String name) {
 
 	}
 

@@ -10,7 +10,7 @@ public class Consumer implements Subscriber {
 
 	private ConsumerHolder consumerHolder;
 
-	public Consumer(String name, String productType) {
+	public Consumer(String name) {
 
 	}
 

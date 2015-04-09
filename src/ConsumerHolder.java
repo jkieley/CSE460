@@ -5,7 +5,13 @@ public class ConsumerHolder {
 	private Collection<Consumer> consumer;
 
 	public Consumer getConsumer(String consumerName) {
-		return null;
+		Consumer toReturn = null;
+		for(Consumer con: consumer){
+			if (con.getName().equals(consumerName)) {
+				toReturn = con;
+				break;
+			}
+		}
 	}
 
 }

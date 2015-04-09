@@ -1,12 +1,14 @@
 import java.util.List;
 
-public class Consumer {
+public class Consumer implements Subscriber {
 
 	private String name;
 
 	private List<String> productTypes;
 
 	private Broker broker;
+
+	private ConsumerHolder consumerHolder;
 
 	public Consumer(String name, String productType) {
 
@@ -29,6 +31,14 @@ public class Consumer {
 	}
 
 	public void removeProductType(String productType) {
+
+	}
+
+	public void subscribe(Broker broker) {
+
+	}
+
+	public void unsubscribe(Broker broker) {
 
 	}
 

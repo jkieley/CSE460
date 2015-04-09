@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.Collection;
 
-public class Vender {
+public class Vender implements Publisher {
 
 	private String name;
 
@@ -10,6 +10,8 @@ public class Vender {
 	private Broker broker;
 
 	private Collection<Product> product;
+
+	private VenderHolder venderHolder;
 
 	public Vender(String name, int product) {
 
@@ -33,6 +35,10 @@ public class Vender {
 
 	public List<Product> getProducts() {
 		return null;
+	}
+
+	public void publish(Broker broker, Product product) {
+
 	}
 
 }

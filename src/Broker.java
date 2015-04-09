@@ -1,7 +1,7 @@
 import java.util.Collection;
 import java.util.List;
 
-public class Broker {
+public class Broker implements EventBus {
 
 	private Collection<Consumer> consumer;
 
@@ -11,16 +11,16 @@ public class Broker {
 
 	}
 
-	public List<Notification> proccessEvent(UnsubscribeEvent event) {
-		return null;
+	public void proccessEvent(UnsubscribeEvent event) {
+
 	}
 
-	public List<Notification> proccessEvent(SubscribeEvent event) {
-		return null;
+	public void proccessEvent(SubscribeEvent event) {
+
 	}
 
-	public List<Notification> proccessEvent(PublishEvent event) {
-		return null;
+	public void proccessEvent(PublishEvent event) {
+
 	}
 
 	protected void addVender(Vender vender) {

@@ -4,7 +4,7 @@ public class ConsumerHolder {
 
 	private Collection<Consumer> consumer;
 
-	public Consumer getConsumer(InputRow inputRow) {
+	public Consumer getConsumer(String consumerName) {
 		return null;
 	}
 

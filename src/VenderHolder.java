@@ -4,7 +4,7 @@ public class VenderHolder {
 
 	private Collection<Vender> hasMany;
 
-	public Vender getVender(InputRow inputRow) {
+	public Vender getVender(String venderName) {
 		return null;
 	}
 

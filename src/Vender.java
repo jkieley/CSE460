@@ -7,12 +7,11 @@ public class Vender implements Publisher {
 
 	private List<Product> products;
 
-	private Broker broker;
-
 	private Collection<Product> product;
 
-	private VenderHolder venderHolder;
-
+	/**
+	 *  
+	 */
 	public Vender(String name) {
 
 	}

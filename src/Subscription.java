@@ -10,15 +10,22 @@ public class Subscription {
 	 *  
 	 */
 	public Subscription(String productType) {
-
+		// @Begin
+		this.productType = productType;
+		// @End
 	}
 
 	public void setProductType(String productType) {
-
+		// @Begin
+		this.productType = productType;
+		// @End
 	}
 
 	public String getProductType() {
-		return null;
+		// @Begin
+		return productType;
+		// @End
+		// return null;
 	}
 
 }

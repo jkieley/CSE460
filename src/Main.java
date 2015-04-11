@@ -27,7 +27,7 @@ public class Main {
 		    		String consumerName = columns[1].trim().toLowerCase();
 		    		String productType = columns[2].trim().toLowerCase();
 		    		if (command.equals("subscribe")) {
-		    			
+		    			Consumer consumer = ConsumerHolder.getConsumer(consumerName);
 		    		}else{ //command.equals("unsubscribe")
 
 		    		}

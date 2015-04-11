@@ -12,6 +12,11 @@ public class ConsumerHolder {
 				break;
 			}
 		}
+		if (toReturn == null) {
+			toReturn = new Consumer(consumerName);
+			consumer.add(toReturn);
+		}
+		return toReturn;
 	}
 
 }

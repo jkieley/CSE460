@@ -4,7 +4,7 @@ public class Subscription {
 
 	private String productType;
 
-	private Collection<Consumer> consumer;
+	private Collection<Consumer> consumers;
 
 	/**
 	 *  
@@ -26,6 +26,25 @@ public class Subscription {
 		return productType;
 		// @End
 		// return null;
+	}
+
+	public Collection<Consumer> getConsumers() {
+		// @Begin
+		return consumers;
+		// @End
+		// return null;
+	}
+
+	public void addConsumer(Consumer consumer) {
+		// @Begin
+		consumers.add(consumer);
+		// @End
+	}
+
+	public void removeConsumer(Consumer consumer) {
+		// @Begin
+		consumers.remove(consumer);
+		// @End
 	}
 
 }

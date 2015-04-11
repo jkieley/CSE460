@@ -2,7 +2,7 @@ import java.util.Collection;
 
 public class Broker implements EventBus {
 
-	private Collection<Subscription> subscription;
+	private Collection<Subscription> subscriptions;
 
 	public Broker() {
 

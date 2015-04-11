@@ -34,13 +34,13 @@ public class Vender implements Publisher {
 		// return null;
 	}
 
-	public void setProducts(List<Product> products) {
+	public void setProducts(Collection<Product> products) {
 		// @Begin
 		this.products = products;
 		// @End
 	}
 
-	public List<Product> getProducts() {
+	public Collection<Product> getProducts() {
 		// @Begin
 		return products;
 		// @End

@@ -1,4 +1,7 @@
 import java.util.Collection;
+// @Begin
+import java.util.LinkedList;
+// @End
 
 public class Subscription {
 
@@ -12,6 +15,7 @@ public class Subscription {
 	public Subscription(String productType) {
 		// @Begin
 		this.productType = productType;
+		consumers = new LinkedList<Consumer>();
 		// @End
 	}
 

@@ -8,23 +8,36 @@ public class Product {
 	 *  
 	 */
 	public Product(String name, String productType) {
-
+		// @Begin
+		this.name = name;
+		this.productType = productType;
+		// @End
 	}
 
 	public void setName(String name) {
-
+		// @Begin
+		this.name = name;
+		// @End
 	}
 
 	public String getName() {
-		return null;
+		// @Begin
+		return name;
+		// @End
+		// return null;
 	}
 
 	public void setProductType(String productType) {
-
+		// @Begin
+		this.productType = productType;
+		// @End
 	}
 
 	public String getProductType() {
-		return null;
+		// @Begin
+		return productType;
+		// @End
+		// return null;
 	}
 
 }

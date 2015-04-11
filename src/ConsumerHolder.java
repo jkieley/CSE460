@@ -2,9 +2,9 @@ import java.util.Collection;
 
 public class ConsumerHolder {
 
-	private Collection<Consumer> consumer;
+	private static Collection<Consumer> consumer;
 
-	public Consumer getConsumer(String consumerName) {
+	public static Consumer getConsumer(String consumerName) {
 		// @Begin
 		Consumer toReturn = null;
 		for(Consumer con: consumer){

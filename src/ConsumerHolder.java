@@ -1,21 +1,25 @@
 import java.util.Collection;
+//@Begin
+import java.util.LinkedList;
+//@End
+
 
 public class ConsumerHolder {
 
-	private static Collection<Consumer> consumer;
+	private static Collection<Consumer> consumers/*@Begin*//*;*/ =  new LinkedList<Consumer>();/*@End*/
 
 	public static Consumer getConsumer(String consumerName) {
 		// @Begin
 		Consumer toReturn = null;
-		for(Consumer con: consumer){
-			if (con.getName().equals(consumerName)) {
-				toReturn = con;
+		for(Consumer consumer: consumers){
+			if (consumer.getName().equals(consumerName)) {
+				toReturn = consumer;
 				break;
 			}
 		}
 		if (toReturn == null) {
 			toReturn = new Consumer(consumerName);
-			consumer.add(toReturn);
+			consumers.add(toReturn);
 		}
 		return toReturn;
 		// @End

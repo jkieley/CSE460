@@ -36,4 +36,10 @@ public class Consumer implements Subscriber {
 		// @End
 	}
 
+	public void notifiy(PublishEvent publishEvent) {
+		// @Begin
+		System.out.println(name+ " notified of "+publishEvent.getProduct().getName()+" from "+publishEvent.getVender().getName());
+		// @End
+	}
+
 }

@@ -40,8 +40,4 @@ public class Main {
 		}catch(Exception e){}
 	}
 
-	private void readInput(String input) {
-
-	}
-
 }

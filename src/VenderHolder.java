@@ -2,9 +2,9 @@ import java.util.Collection;
 
 public class VenderHolder {
 
-	private Collection<Vender> hasMany;
+	private static Collection<Vender> vender;
 
-	public Vender getVender(String venderName) {
+	public static Vender getVender(String venderName) {
 		return null;
 	}
 

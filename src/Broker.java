@@ -1,11 +1,8 @@
 import java.util.Collection;
-import java.util.List;
 
 public class Broker implements EventBus {
 
-	private Collection<Consumer> consumer;
-
-	private Collection<Vender> vender;
+	private Collection<Subscription> subscription;
 
 	public Broker() {
 
@@ -23,19 +20,7 @@ public class Broker implements EventBus {
 
 	}
 
-	protected void addVender(Vender vender) {
-
-	}
-
-	protected void addConsumer(Consumer consumer) {
-
-	}
-
-	protected void removeConsumer() {
-
-	}
-
-	protected List<Consumer> getConsumersByProductType(String productType) {
+	protected Subscription getSubscriptionByProductType(String productType) {
 		return null;
 	}
 

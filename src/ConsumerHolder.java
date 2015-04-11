@@ -5,6 +5,7 @@ public class ConsumerHolder {
 	private Collection<Consumer> consumer;
 
 	public Consumer getConsumer(String consumerName) {
+		// @Begin
 		Consumer toReturn = null;
 		for(Consumer con: consumer){
 			if (con.getName().equals(consumerName)) {
@@ -17,6 +18,8 @@ public class ConsumerHolder {
 			consumer.add(toReturn);
 		}
 		return toReturn;
+		// @End
+		// return null;
 	}
 
 }

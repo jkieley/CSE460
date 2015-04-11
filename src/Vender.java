@@ -1,13 +1,10 @@
-import java.util.List;
 import java.util.Collection;
 
 public class Vender implements Publisher {
 
 	private String name;
 
-	private List<Product> products;
-
-	private Collection<Product> product;
+	private Collection<Product> products;
 
 	/**
 	 *  
